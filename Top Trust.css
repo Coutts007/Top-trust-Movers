@@ -1,0 +1,162 @@
+body{
+    background-color:white;
+    margin: 0px;
+    opacity: 200px;
+}
+header{
+    background-color:white;
+    border-width: 20px;
+    width: 1500px;
+    height: 100px;
+    font-weight: bolder;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+header nav{
+          position: fixed;
+          background-attachment: fixed;
+          background-color: cadetblue;
+          border-radius: 10px;
+          border: outset;
+          width: 1350px;
+          padding-bottom: 20px;
+          height: 60px;
+          margin-top: 0px;
+
+          
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 20rem;
+    font-weight: bolder;
+    position: relative;
+}nav ul a{
+    color: blue;
+    list-style: none;
+    text-decoration: none;
+    font-weight: bolder;
+}
+nav ul  :hover{
+    color: white;
+}
+.one b{
+    border-radius: solid;
+    border-width: 10px;
+    background-color:blue;
+    margin-left:10px;
+}
+.one h1{
+    margin-top: 0px;
+    text-align: center;
+    background-color: lightblue;
+    width: 1500px;
+}
+.one {
+    background-color: lightgray;
+    width: 1500px;
+}
+ #intro{
+    text-align: right;
+    border:solid;
+    justify-content: last baseline;
+    background-image:url(Images/mp1.webp);
+    background-color: aqua;
+    height: 500px;
+    width: 1500px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: larger;
+}
+.two{
+    display: flex;
+    gap: 100px;
+}
+#whyus{
+    border: solid lightblue;
+    border-width: 10px;
+    border-radius: 20px;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+    width: 700px;
+    padding: 20px;
+    height: 500px;
+    background-color: lightgray;
+}
+#whyus h2{
+    border-bottom: outset;
+    color: blue;
+}
+#book h2{
+    font-weight: bolder;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: solid;
+}
+#book form{
+    gap: 10px;
+}
+#process{
+    border: solid lightblue;
+    border-width: 10px;
+    border-radius: 20px;
+    margin-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+    width: 700px;
+    padding: 20px;
+    height: 400px;
+    background-color: lightgrey;
+}
+#process h2{
+    border-bottom: outset;
+    color: blue;
+}
+.services{
+    opacity: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+    text-align: center;
+    background-color: lightblue;
+    border: inset grey;
+    border-radius: 20px;
+    width: 1500px;
+}
+#second{
+    background-image: url(Images/mpbox.avif);
+    height: 500px;
+    width: 1500px;
+}
+.services h2{
+    color: blue;
+}
+.three{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+}
+.three h2{
+    color: blue;
+}
+footer{
+    color: white;
+    background-color: black;
+    width: 1500px;
+    height: 500px;
+    text-align: center;
+}
+nav h2{
+    color: blue;
+    align-items: center;
+}
+nav p{
+    text-decoration-color: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+}
